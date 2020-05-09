@@ -9,9 +9,9 @@
 	?>
 	<div class="nav__list">
 		<ul class="nav__list_wrap">
-			<li data-menuanchor="firstPage"><a href="#firstPage" class="firstPage">Мы</a></li>
-			<li data-menuanchor="secondPage"><a href="#secondPage" class="secondPage">Портфолио</a></li>
-			<li data-menuanchor="lastPage"><a href="#lastPage" class="lastPage">Контакты</a></li>
+			<li data-menuanchor="firstPage"><a href="#firstPage" class="firstPage">Ми</a></li>
+			<li data-menuanchor="secondPage"><a href="#secondPage" class="secondPage">Портфоліо</a></li>
+			<li data-menuanchor="lastPage"><a href="#lastPage" class="lastPage">Контакти</a></li>
 		</ul>
 	</div>
 	<div class="nav__arrow">

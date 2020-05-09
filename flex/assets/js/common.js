@@ -103,12 +103,16 @@ $(function() {
       },
       messages: {
         name: "Введіть своє ім'я",
-        phone: "Введіть телефон",
+        phone: "Введіть номер телефона",
+        name_ru: "Введить свое имя",
+        phone_ru: "Введить номер телефона",
       },
       submitHandler: function(form) {
         var t = {
           name: jQuery('.form-' + index).find("input[name=name]").val(),
           phone: jQuery('.form-' + index).find("input[name=phone]").val(),
+          name_ru: jQuery('.form-' + index).find("input[name=name_ru]").val(),
+          phone_ru: jQuery('.form-' + index).find("input[name=phone_ru]").val(),
           subject: jQuery('.form-' + index).find("input[name=subject]").val()
         };
         ajaxSend('.form-' + index, t);

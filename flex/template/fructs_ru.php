@@ -23,15 +23,15 @@
 			</div>
 
 			<div class="site--orphan__about">
-				<p class="site--orphan__sub-title wow">About</p>
+				<p class="site--orphan__sub-title wow">О проекте</p>
 
 				<div class="site--orphan__about_text">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<p>Один из способов обратить внимание на специфику интернет-магазина - цвет. В дизайне этого сайта яркие сочные цвета напоминают о лете и практически напрямую указывают на тропические фрукты и ягоды. Необычные товарные позиции для многих незнакомы, поэтому подробная информация о каждой из них вместе с ярким фото подогревают интерес к покупке, а удобная навигация позволяет быстро сделать заказ.</p>
 				</div>
 			</div>
 
 			<div class="site--fructs__main site--orphan__main">
-				<p class="site--orphan__sub-title wow">Main page</p>
+				<p class="site--orphan__sub-title wow">Главная</p>
 
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/fructs__main.png" alt="" class="site--orphan__main_bunner wow bounceInUp" data-wow-duration="2s">
 
@@ -39,7 +39,7 @@
 			</div>
 
 			<div class="site--fructs__shop">
-				<p class="site--orphan__sub-title wow">shop</p>
+				<p class="site--orphan__sub-title wow">Каталог</p>
 
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/fructs__shop.png" alt="" class="site--burger__menu_bunner wow bounceInUp" data-wow-duration="2s" data-wow-delay=".3s">
 			</div>
@@ -60,14 +60,14 @@
 			</div>
 
 			<div class="site--fructs__cart">
-				<p class="site--orphan__sub-title wow">shopping cart</p>
+				<p class="site--orphan__sub-title wow">Корзина</p>
 
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/fructs__cart.png" alt="" class="wow bounceInUp" data-wow-duration="2.3s" data-wow-delay=".3s">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/fructs__cart_item.png" alt="" class="site--fructs__cart_item wow bounceInUp"  data-wow-duration="2.9s">
 			</div>
 
 			<div class="site--fructs__dashboard">
-				<p class="site--orphan__sub-title wow">dashboard</p>
+				<p class="site--orphan__sub-title wow">Кабинет</p>
 
 				<div class="site--fructs__dashboard_wrap">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/fructs__dashboard1.png" alt="" class="wow bounceInUp" data-wow-duration="2.3s" data-wow-delay=".3s">

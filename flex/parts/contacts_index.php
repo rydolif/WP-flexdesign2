@@ -1,14 +1,14 @@
 <div class="contacts section" id="section4">
 	<div class="contacts__container">
 		<div class="contacts__wrap">
-			<p>реализуем</p>
+			<p>реалізуємо</p>
 			<br>
 			<p>вашу</p>
 			<br>
-			<p>идею</p>
+			<p>ідею</p>
 			<form action="telegram.php" method="post" class="form contacts__form">
 				<div class="contacts__form_line">
-					<input type="text" name="name" placeholder="Ваше имя"  required>
+					<input type="text" name="name" placeholder="Ваше ім'я"  required>
 				</div>
 				<div class="contacts__form_line">
 					<input type="tel" name="phone" placeholder="Ваш телефон" required>
@@ -20,8 +20,8 @@
 		</div>
 		<div class="contacts__info">
 			<div>
-				<p>свяжитесь</p>
-				<p>с нами</p>
+				<p>зв'язатися</p>
+				<p>з нами</p>
 			</div>
 			<div>
 				<span class="contacts__info_before">follow us</span>
@@ -40,6 +40,6 @@
 		<span></span>
 		<span></span>
 	</button>
-	<h2>Дякую за довіру!</h2>
+	<h2>Дякуємо за довіру!</h2>
 	<p>Ми зв’яжемось з вами!</p>
 </div>

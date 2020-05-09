@@ -97,7 +97,8 @@
 			padding: 
 				top: 15px
 				bottom: 15px
-
+			
+	
 	.portfolio
 		&__slider
 			max-width: 75vw
@@ -141,10 +142,6 @@
 				justify-content: flex-start
 
 	.site
-
-		&--more
-			min-height: 80vh
-
 		&--orphan
 
 			&__sub-title
@@ -213,13 +210,10 @@
 			font-size: 14px
 
 	.site
-		
-		&--more
-			min-height: 70vh
-
 		&--orphan
 			&__about_text
 				font-size: 14px
+		
 
 			&__product
 				padding-bottom: 28%
@@ -287,13 +281,6 @@
 
 	.site
 		margin-right: 40px
-
-		&--more
-			min-height: 400px
-
-			.portfolio__item
-				img
-					width: 85%
 
 		.animated
 			&::after
@@ -428,12 +415,16 @@
 
 @media only screen and (max-width : 480px)
 
-	.modal
-		h2
-			font-size: 26px
+	.contacts
+		&__form_line
+			margin-bottom: 25px
 
-	.contacts__info_before
-		display: none
+		&__info_before
+			display: none
+
+	.form
+		label.error
+			font-size: 14px
 
 	.logo
 		top: 5px

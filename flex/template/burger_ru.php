@@ -23,33 +23,33 @@
 			</div>
 
 			<div class="site--orphan__about">
-				<p class="site--orphan__sub-title wow">About</p>
+				<p class="site--orphan__sub-title wow">О проекте</p>
 
 				<div class="site--orphan__about_text">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<p>В огромном количестве кафе и ресторанов важно показать уникальность предприятия. Каждая деталь сайта должна соответствовать принципам работы заведения. Лаконичный дизайн сайта и цветовая гамма отражает основные пункты философии сотрудников: простота, дружелюбие, доступность. Основная фишка заведения - бургеры. Именно им отведено главное место в меню с яркими натуральными аппетитными фотографиями как мотивацией к заказу. Простая навигация делает сайт доступным для любого пользователя, а фотографии интерьера и наличие отзывов клиентов действуют как приглашение посетить само заведение.</p>
 				</div>
 			</div>
 
 			<div class="site--burger__main site--orphan__main">
-				<p class="site--orphan__sub-title wow">Main page</p>
+				<p class="site--orphan__sub-title wow">Главная</p>
 
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/burger__main.png" alt="" class="site--orphan__main_bunner wow bounceInUp" data-wow-duration="2s">
 			</div>
 
 			<div class="site--burger__promotions">
-				<p class="site--orphan__sub-title wow">promotions</p>
+				<p class="site--orphan__sub-title wow">Акции</p>
 
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/burger__promotions.png" alt="" class="site--orphan__main_bunner wow bounceInUp" data-wow-duration="2s">
 			</div>
 
 			<div class="site--burger__main site--burger__menu">
-				<p class="site--orphan__sub-title wow">About</p>
+				<p class="site--orphan__sub-title wow">О нас</p>
 
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/burger__about.png" alt="" class="site--burger__menu_bunner wow bounceInUp" data-wow-duration="2s" data-wow-delay=".3s">
 			</div>
 
 			<div class="site--burger__menu">
-				<p class="site--orphan__sub-title wow">Menu</p>
+				<p class="site--orphan__sub-title wow">Меню</p>
 
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/burger__menu.png" alt="" class="site--burger__menu_bunner wow bounceInUp" data-wow-duration="2s" data-wow-delay=".3s">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/burger__menu_item1.png" alt="" class="site--burger__menu_item site--burger__menu_item--one wow bounceInUp" data-wow-duration="2s">
