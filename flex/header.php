@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <head>
+	<title><?php wp_title("", true); ?></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="<?php the_field('favicon', 'option'); ?>">

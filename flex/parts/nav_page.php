@@ -9,9 +9,9 @@
 	?>
 	<div class=" nav__list">
 		<ul class="nav__list_wrap">
-			<li><a href="<?php echo get_home_url(); ?>" class="firstPage">Главная</a></li>
-			<li><a href="<?php echo get_home_url(); ?>#secondPage" class="secondPage active">Портфолио</a></li>
-			<li><a href="<?php echo get_home_url(); ?>#lastPage" class="lastPage">Контакты</a></li>
+			<li><a href="<?php echo get_home_url(); ?>" class="firstPage">Головна</a></li>
+			<li><a href="<?php echo get_home_url(); ?>#secondPage" class="secondPage active">Портфоліо</a></li>
+			<li><a href="<?php echo get_home_url(); ?>#lastPage" class="lastPage">Контакти</a></li>
 		</ul>
 	</div>
 	<div class="nav__arrow"></div>

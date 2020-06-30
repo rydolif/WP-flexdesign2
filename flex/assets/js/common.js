@@ -1,5 +1,15 @@
 $(function() {
 
+//-------------------------------активна ссилка на якій знаходишся для меню---------------------------------------
+  $('.nav__lang a').each(function () {
+    var location = window.location.href;
+    var link = this.href; 
+    if(location == link) {
+        $(this).addClass('active');
+    }
+  });
+
+
 //-------------------------------preloader---------------------------------------
 	$('body').addClass('no-scroll');
   
