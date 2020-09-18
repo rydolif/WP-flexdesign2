@@ -11,7 +11,7 @@
 					<input type="text" name="name" placeholder="Ваше ім'я"  required>
 				</div>
 				<div class="contacts__form_line">
-					<input type="tel" name="phone" placeholder="Ваш телефон" required>
+					<input type="email" name="mail" placeholder="Ваша пошта" required>
 				</div>
 				<div class="contacts__form_btn">
 					<button class="btn" type="submit" name="submit" value="Отправить">Відправити<span></span></button>

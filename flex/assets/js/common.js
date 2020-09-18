@@ -83,8 +83,13 @@ $(function() {
   );
   wow.init();
 
-	//-------------------------------попандер---------------------------------------
-  $('.modal').popup({transition: 'all 0.3s'});
+//-------------------------------попандер---------------------------------------
+	$('.modal').popup({
+		escape: false,
+		blur: false,
+		scrolllock: true,
+		transition: 'all 0.3s'
+	});
 
 //------------------------------------form-------------------------------------------
   $('input[type="tel"]').mask('+00 (000) 000-00-00');
@@ -113,16 +118,16 @@ $(function() {
       },
       messages: {
         name: "Введіть своє ім'я",
-        phone: "Введіть номер телефона",
+        mail: "Введіть свою пошту",
         name_ru: "Введить свое имя",
-        phone_ru: "Введить номер телефона",
+        mail_ru: "Введить свою почту",
       },
       submitHandler: function(form) {
         var t = {
           name: jQuery('.form-' + index).find("input[name=name]").val(),
-          phone: jQuery('.form-' + index).find("input[name=phone]").val(),
+          mail: jQuery('.form-' + index).find("input[name=mail]").val(),
           name_ru: jQuery('.form-' + index).find("input[name=name_ru]").val(),
-          phone_ru: jQuery('.form-' + index).find("input[name=phone_ru]").val(),
+          mail_ru: jQuery('.form-' + index).find("input[name=mail_ru]").val(),
           subject: jQuery('.form-' + index).find("input[name=subject]").val()
         };
         ajaxSend('.form-' + index, t);

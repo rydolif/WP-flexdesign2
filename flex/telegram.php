@@ -4,17 +4,17 @@
 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
 
 $name = $_POST['name'];
-$phone = $_POST['phone'];
+$mail = $_POST['mail'];
 $name_ru = $_POST['name_ru'];
-$phone_ru = $_POST['phone_ru'];
+$mail_ru = $_POST['mail_ru'];
 $token = "1084239802:AAFMYopnkN0UfX6S8Rp2nz_gZ5zu9IVD0zo";
 $chat_id = "-417297943";
 $arr = array(
   'FlexDesign ' => $comment,
   'Імя замовника uk: ' => $name,
-  'Телефон uk: ' => $phone,
+  'Почта uk: ' => $mail,
   'Имя пользователя ru: ' => $name_ru,
-  'Телефон ru: ' => $phone_ru,
+  'Почта ru: ' => $mail_ru,
 );
 
 foreach($arr as $key => $value) {
