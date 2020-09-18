@@ -14,6 +14,9 @@
 				<div class="contacts__form_line">
 					<input type="email" name="mail_ru" placeholder="Ваша почта" required>
 				</div>
+				<div class="contacts__form_line">
+					<input type="tel" name="phone_ru" placeholder="Ваш телефон" required>
+				</div>
 				<div class="contacts__form_btn">
 					<button class="btn" type="submit" name="submit" value="Отправить">Отправить<span></span></button>
 				</div>

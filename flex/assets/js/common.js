@@ -118,16 +118,20 @@ $(function() {
       },
       messages: {
         name: "Введіть своє ім'я",
-        mail: "Введіть свою пошту",
+				mail: "Введіть свою пошту",
+				phone: "Введіть номер телефона",
         name_ru: "Введить свое имя",
-        mail_ru: "Введить свою почту",
+				mail_ru: "Введить свою почту",
+				phone_ru: "Введить номер телефона",
       },
       submitHandler: function(form) {
         var t = {
           name: jQuery('.form-' + index).find("input[name=name]").val(),
-          mail: jQuery('.form-' + index).find("input[name=mail]").val(),
+					mail: jQuery('.form-' + index).find("input[name=mail]").val(),
+					phone: jQuery('.form-' + index).find("input[name=phone]").val(),
           name_ru: jQuery('.form-' + index).find("input[name=name_ru]").val(),
-          mail_ru: jQuery('.form-' + index).find("input[name=mail_ru]").val(),
+					mail_ru: jQuery('.form-' + index).find("input[name=mail_ru]").val(),
+					phone_ru: jQuery('.form-' + index).find("input[name=phone_ru]").val(),
           subject: jQuery('.form-' + index).find("input[name=subject]").val()
         };
         ajaxSend('.form-' + index, t);
